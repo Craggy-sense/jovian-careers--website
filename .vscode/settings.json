@@ -1,0 +1,5 @@
+{
+    "secrets.enabledFolders": [
+        "DB_CONNECTION"
+    ]
+}
