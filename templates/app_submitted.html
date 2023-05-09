@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Submitted</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-2 mb-4">Jovian Careers</h1>
+
+
+        <p>Your Application for the role of  {{job['id']}}has been submitted</p>
+
+        <b>Full Name</b>
+        <div class="mb-2">{{application['full_name']}}</div>
+
+        <b>Email Address</b>
+        <div class="mb-2">{{application['email']}}</div>
+        <b>Education</b>
+        <div class="mb-2">{{application['education']}}</div>
+        <b>linked_url</b>
+        <div class="mb-2">{{application['linked_url']}}</div>
+        <b>Resume</b>
+        <div class="mb-2">{{application['Resume_URL']}}</div>
+    </div>
+    
+</body>
+</html>
